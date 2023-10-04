@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img2/mony.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+  }
+  
+  header {
+    background-color: #e45895;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ header h1 {
+   margin-right: 1170px;
+  }
+  
+  main {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #e45895;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #difference {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #e45895;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Réinitialisation des styles par défaut */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   */
+  /* Style du menu */
+  nav  {
+    list-style: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: #f9f9f9; */
+    /* padding: 10px; */
+    margin-left: 1000px;
+  }
+  nav ul  {
+    list-style: none;
+    display: flex; 
+     justify-content: center; 
+    /* background-color: #f9f9f9;  */
+ padding: 10px; 
+    /* margin-left: 1000px; */
+    margin-top: -40px;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #f08ac2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style du contenu principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style du pied de page */
+  footer {
+    background-color: #e28aa8;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+  }
+  header {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    text-align: center;
+    height: 50px; /* Réduire la hauteur du header */
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style du footer */
+  footer {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+#cais{
+    margin-top : 15%;
+    margin-bottom: 0;
+}
